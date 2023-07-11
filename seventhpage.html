@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>fifthPage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+<body>
+    <section class="header">
+
+        <nav class="nav">
+            <h1 class="index-title">Siko Na Mungu</h1>
+            <div class="nav-links" id="navlinks">
+
+                <ul>
+                    <li><a href="seventhpage">الخدام</a></li>
+                    <li><a href="fourthpage">ورشة العمل</a></li>
+                    <li><a href="thirdpage">دراسة الكتاب</a></li>
+                    <li><a href="secondpage">الترنيم</a></li>
+                </ul>
+            </div>
+
+        </nav>
+        <p class="logo-page2">  (أَكُونُ مَعَكَ (يش 1 : 5</p>
+        <div class="text-box">
+
+
+            <a href="index" class="hero-btn">Home</a>
+            <a href="#container" class="hero-btn">Login Form</a>
+            <a href="#HollyBible-box4" class="hero-btn">To The End</a>
+
+        </div>
+    </section>
+    <section>
+        <div class="container" id="container">
+            <div class="wrapper">
+                <div class="title"><span>Login Form</span></div>
+                <form action="#">
+                    <div class="row">
+                        <i class="fas fa-user"></i>
+                        <input type="text" name="loginUser" id="email" placeholder="User Name" required>
+                    </div>
+                    <div class="row">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" name="loginPassword" id="password" placeholder="Password" required>
+                    </div>
+
+                    <div class="row button">
+                        <!--<input type="submit" value="Login" onclick="auth()">-->
+                        <button type="submit" class="button" onclick="func()">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="HollyBible-box4">
+        <div class="HollyBible-links">
+            <a href="index" class="hero-btn">Home</a>
+            <a href="secondpage" class="hero-btn">الترنيم و الحان</a>
+            <a href="#" class="hero-btn">ورشة العمل</a>
+            <a href="#" class="hero-btn">الخدام</a>
+        </div>
+    </section>
+    <!-- The footer of the website here -->
+    <footer>
+        <div class="website-end">
+            <h2 class="Arabic-tranym-title2">Mo2tamar Siko Na Mungu</h2>
+            <p class="Arabic-footer">مؤتمر كنيسة القديس الغظيم الانبا انطونيوس اسرة ثانوى</p>
+            <p class="footer-title">copyrights @ <span>Antony Ramy</span></p>
+        </div>
+    </footer>
+    <script>
+        function func(){
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            if (email == "admin@gmail.com" && password == "admin@222") {
+                window.location.assign("eighth")
+                alert("Login success");
+            }
+            else {
+                alert("invalid Information");
+                return;
+            }
+
+        }
+
+    </script>
+</body>
+</html>

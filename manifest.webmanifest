@@ -1,0 +1,15 @@
+{
+  "background_color": "white",
+  "description": "Sanawi 2023",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "7 secrets",
+  "short_name": "7 secrets",
+  "start_url": "/new-index"
+}
