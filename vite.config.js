@@ -29,7 +29,7 @@ export default defineConfig({
             }
           }
         ],
-        globPatterns: ['**/*.{js,css,html,ico,png,svg,json,vue,txt,woff2}'],
+        globPatterns: ['**/*.{js,css,html,ico,png,jpg,jpeg,svg,json,vue,txt,woff2}'],
         cleanupOutdatedCaches: true
       },
       includeAssets: ['favicon.ico',],
