@@ -1,0 +1,16 @@
+{
+  "name": "siku",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.4.0",
+    "vite-plugin-pwa": "^0.16.4",
+    "vite-plugin-virtual-html-template": "^1.1.0"
+  }
+}
